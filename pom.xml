@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mxgraph</groupId>
+  <groupId>com.comodide</groupId>
   <artifactId>jgraphx</artifactId>
-  <version>4.0.0</version>
+  <version>4.0.1</version>
   <packaging>jar</packaging>
 
-  <url>http://www.jgraph.com</url>
+  <url>https://comodide.com</url>
 
   <properties>
   
@@ -53,8 +53,8 @@
 			</executions>
 			<configuration>
 				<instructions>
-					<Bundle-Vendor>see https://github.com/jgraph/jgraphx)</Bundle-Vendor>
-					<Automatic-Module-Name>com.mxgraph.jgraphx</Automatic-Module-Name>
+					<Bundle-Vendor>https://github.com/comodide/jgraphx</Bundle-Vendor>
+					<Automatic-Module-Name>com.comodide.jgraphx</Automatic-Module-Name>
 				</instructions>
 			</configuration>
 		</plugin>
