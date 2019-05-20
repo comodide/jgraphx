@@ -886,6 +886,14 @@ public class mxGraphComponent extends JScrollPane implements Printable
 	}
 
 	/**
+	 * 
+	 */
+	public void setConnectionHandler(mxConnectionHandler connectionHandler)
+	{
+		this.connectionHandler = connectionHandler;
+	}
+	
+	/**
 	 *
 	 */
 	protected mxPanningHandler createPanningHandler()
